@@ -1,10 +1,10 @@
 'use client'
 
 import TopInfoSection from '@/components/TopInfoSection';
+import IceCubes from '@/Icons/IceCubes';
 import { calculateMineUpgradeCost, calculateProfitPerHour, useGameStore } from '@/utils/game-mechaincs';
 import { formatNumber, showErrorMessage, showSuccessMessage } from '@/utils/ui';
 import { useState } from 'react';
-import IceCubes from '../Icons/IceCubes';
 
 export default function Mine() {
     const {

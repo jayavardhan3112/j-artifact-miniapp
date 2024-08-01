@@ -1,10 +1,10 @@
 'use client'
 
+import IceCube from '@/Icons/IceCube';
 import { mainCharacter } from '@/images';
 import { calculateEnergyLimit, calculateLevel, calculatePointsPerClick, calculateProfitPerHour, GameState, InitialGameState, useGameStore } from '@/utils/game-mechaincs';
 import Image from 'next/image';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import IceCube from '../Icons/IceCube';
 
 interface LoadingProps {
   setIsInitialized: React.Dispatch<React.SetStateAction<boolean>>;

@@ -1,13 +1,13 @@
 "use client"
 
+import Coins from '@/Icons/Coins';
+import Friends from '@/Icons/Friends';
+import IceCube from '@/Icons/IceCube';
+import Mine from '@/Icons/Mine';
 import { iceToken } from '@/images';
 import { IconProps } from '@/utils/types';
 import Image, { StaticImageData } from 'next/image';
 import { FC } from 'react';
-import Coins from '../Icons/Coins';
-import Friends from '../Icons/Friends';
-import IceCube from '../Icons/IceCube';
-import Mine from '../Icons/Mine';
 
 type NavItem = {
     name: string;

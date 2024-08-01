@@ -1,15 +1,15 @@
 'use client'
 
 import TopInfoSection from '@/components/TopInfoSection';
+import IceCube from '@/Icons/IceCube';
+import IceCubes from '@/Icons/IceCubes';
+import Rocket from '@/Icons/Rocket';
 import { lightning } from '@/images';
 import { levelMinPoints, levelNames, useGameStore } from '@/utils/game-mechaincs';
 import fluidPlayer from 'fluid-player';
 import 'fluid-player/src/css/fluidplayer.css';
 import Image from 'next/image';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import IceCube from '../Icons/IceCube';
-import IceCubes from '../Icons/IceCubes';
-import Rocket from '../Icons/Rocket';
 
 interface GameProps {
   currentView: string;
