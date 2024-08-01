@@ -1,14 +1,13 @@
 'use client'
 
-import { useState, useCallback, useEffect } from 'react';
+import { baseGift, bigGift } from '@/images';
+import { useGameStore } from '@/utils/game-mechaincs';
+import { showErrorMessage, showSuccessMessage } from '@/utils/ui';
 import Image from 'next/image';
 import Link from 'next/link';
-import IceCubes from '@/icons/IceCubes';
+import { useCallback, useEffect, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
-import { useGameStore } from '@/utils/game-mechaincs';
-import { baseGift, bigGift } from '@/images';
-import IceCube from '@/icons/IceCube';
-import { showErrorMessage, showSuccessMessage } from '@/utils/ui';
+import IceCube from '../Icons/IceCube';
 
 interface Referral {
   telegramId: string;

@@ -1,13 +1,12 @@
 'use client'
 
-import { useState, useEffect } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
 import { battery, lightning, multiclick } from '@/images';
-import IceCubes from '@/icons/IceCubes';
 import { calculateEnergyLimitUpgradeCost, calculateMultitapUpgradeCost, useGameStore } from '@/utils/game-mechaincs';
-import IceCube from '@/icons/IceCube';
 import { showErrorMessage, showSuccessMessage } from '@/utils/ui';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import IceCube from '../Icons/IceCube';
+import IceCubes from '../Icons/IceCubes';
 
 interface BoostProps {
   currentView: string;

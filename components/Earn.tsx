@@ -1,15 +1,15 @@
 'use client';
 
-import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-import Image from 'next/image';
-import IceCube from '@/icons/IceCube';
-import { useGameStore } from '@/utils/game-mechaincs';
-import { capitalizeFirstLetter, formatNumber, showSuccessMessage, showErrorMessage } from '@/utils/ui';
-import { ToastContainer } from 'react-toastify';
 import { imageMap } from '@/images';
-import { useHydration } from '@/utils/useHydration';
-import Time from '@/icons/Time';
 import { TASK_WAIT_TIME } from '@/utils/consts';
+import { useGameStore } from '@/utils/game-mechaincs';
+import { capitalizeFirstLetter, formatNumber, showErrorMessage, showSuccessMessage } from '@/utils/ui';
+import { useHydration } from '@/utils/useHydration';
+import Image from 'next/image';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { ToastContainer } from 'react-toastify';
+import IceCube from '../Icons/IceCube';
+import Time from '../Icons/Time';
 
 interface Task {
   id: string;

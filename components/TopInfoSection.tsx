@@ -1,10 +1,10 @@
 "use client"
 
-import IceCubes from "@/icons/IceCubes";
-import Settings from "@/icons/Settings";
-import Snowflake from "@/icons/Snowflake";
 import { useGameStore } from "@/utils/game-mechaincs";
 import { formatNumber } from "@/utils/ui";
+import IceCubes from "../Icons/IceCubes";
+import Settings from "../Icons/Settings";
+import Snowflake from "../Icons/Snowflake";
 
 export default function TopInfoSection() {
 

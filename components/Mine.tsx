@@ -1,12 +1,10 @@
 'use client'
 
-import { useState } from 'react';
-import IceCubes from '@/icons/IceCubes';
-import { calculateMineUpgradeCost, calculateProfitPerHour, useGameStore } from '@/utils/game-mechaincs';
-import Snowflake from '@/icons/Snowflake';
 import TopInfoSection from '@/components/TopInfoSection';
-import { mineUpgradeBaseBenefit, mineUpgradeBasePrice, mineUpgradeBenefitCoefficient, mineUpgradeCostCoefficient } from '@/utils/consts';
+import { calculateMineUpgradeCost, calculateProfitPerHour, useGameStore } from '@/utils/game-mechaincs';
 import { formatNumber, showErrorMessage, showSuccessMessage } from '@/utils/ui';
+import { useState } from 'react';
+import IceCubes from '../Icons/IceCubes';
 
 export default function Mine() {
     const {
