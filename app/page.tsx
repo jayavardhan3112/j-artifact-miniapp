@@ -1,6 +1,8 @@
 'use client'
 
+import IceCube from '@/icons/IceCube';
 import WebApp from '@twa-dev/sdk';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 interface UserData {
@@ -55,7 +57,7 @@ export default function Home() {
           </div>
         </div> */}
         
-        {/* <h1 className="text-3xl font-bold mb-4">Welcome to TonIce</h1>
+        <h1 className="text-3xl font-bold mb-4">Welcome to TonIce</h1>
         
         <p className="text-xl mb-6">The game is on the <Link href="/clicker" className="underline">Clicker</Link> page.</p>
         
@@ -63,7 +65,7 @@ export default function Home() {
           <IceCube className="w-8 h-8 animate-pulse" />
           <IceCube className="w-8 h-8 animate-pulse delay-100" />
           <IceCube className="w-8 h-8 animate-pulse delay-200" />
-        </div> */}
+        </div>
       </div>
     </div>
   );
