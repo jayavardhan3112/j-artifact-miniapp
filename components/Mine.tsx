@@ -1,7 +1,7 @@
 'use client'
 
 import TopInfoSection from '@/components/TopInfoSection';
-import IceCubes from '@/Icons/IceCubes';
+import IceCubes from '@/icons/IceCubes';
 import { calculateMineUpgradeCost, calculateProfitPerHour, useGameStore } from '@/utils/game-mechaincs';
 import { formatNumber, showErrorMessage, showSuccessMessage } from '@/utils/ui';
 import { useState } from 'react';

@@ -1,9 +1,9 @@
 'use client'
 
 import TopInfoSection from '@/components/TopInfoSection';
-import IceCube from '@/Icons/IceCube';
-import IceCubes from '@/Icons/IceCubes';
-import Rocket from '@/Icons/Rocket';
+import IceCube from '@/icons/IceCube';
+import IceCubes from '@/icons/IceCubes';
+import Rocket from '@/icons/Rocket';
 import { lightning } from '@/images';
 import { levelMinPoints, levelNames, useGameStore } from '@/utils/game-mechaincs';
 import fluidPlayer from 'fluid-player';

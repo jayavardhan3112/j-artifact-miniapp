@@ -1,8 +1,8 @@
 "use client"
 
-import IceCubes from "@/Icons/IceCubes";
-import Settings from "@/Icons/Settings";
-import Snowflake from "@/Icons/Snowflake";
+import IceCubes from "@/icons/IceCubes";
+import Settings from "@/icons/Settings";
+import Snowflake from "@/icons/Snowflake";
 import { useGameStore } from "@/utils/game-mechaincs";
 import { formatNumber } from "@/utils/ui";
 

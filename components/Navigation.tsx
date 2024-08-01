@@ -1,9 +1,9 @@
 "use client"
 
-import Coins from '@/Icons/Coins';
-import Friends from '@/Icons/Friends';
-import IceCube from '@/Icons/IceCube';
-import Mine from '@/Icons/Mine';
+import Coins from '@/icons/Coins';
+import Friends from '@/icons/Friends';
+import IceCube from '@/icons/IceCube';
+import Mine from '@/icons/Mine';
 import { iceToken } from '@/images';
 import { IconProps } from '@/utils/types';
 import Image, { StaticImageData } from 'next/image';

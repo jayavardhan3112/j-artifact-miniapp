@@ -1,6 +1,6 @@
 'use client'
 
-import IceCube from '@/Icons/IceCube';
+import IceCube from '@/icons/IceCube';
 import { mainCharacter } from '@/images';
 import { calculateEnergyLimit, calculateLevel, calculatePointsPerClick, calculateProfitPerHour, GameState, InitialGameState, useGameStore } from '@/utils/game-mechaincs';
 import Image from 'next/image';

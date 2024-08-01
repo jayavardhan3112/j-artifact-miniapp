@@ -1,7 +1,7 @@
 'use client'
 
-import IceCube from '@/Icons/IceCube';
-import IceCubes from '@/Icons/IceCubes';
+import IceCube from '@/icons/IceCube';
+import IceCubes from '@/icons/IceCubes';
 import { battery, lightning, multiclick } from '@/images';
 import { calculateEnergyLimitUpgradeCost, calculateMultitapUpgradeCost, useGameStore } from '@/utils/game-mechaincs';
 import { showErrorMessage, showSuccessMessage } from '@/utils/ui';

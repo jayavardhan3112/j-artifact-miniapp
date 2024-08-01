@@ -1,7 +1,7 @@
 'use client';
 
-import IceCube from '@/Icons/IceCube';
-import Time from '@/Icons/Time';
+import IceCube from '@/icons/IceCube';
+import Time from '@/icons/Time';
 import { imageMap } from '@/images';
 import { TASK_WAIT_TIME } from '@/utils/consts';
 import { useGameStore } from '@/utils/game-mechaincs';

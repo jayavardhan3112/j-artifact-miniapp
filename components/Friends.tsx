@@ -1,6 +1,6 @@
 'use client'
 
-import IceCube from '@/Icons/IceCube';
+import IceCube from '@/icons/IceCube';
 import { baseGift, bigGift } from '@/images';
 import { useGameStore } from '@/utils/game-mechaincs';
 import { showErrorMessage, showSuccessMessage } from '@/utils/ui';
